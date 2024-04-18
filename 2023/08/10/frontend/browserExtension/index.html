@@ -22,12 +22,18 @@
     window,
     document,
     "script",
-    "//www.google-analytics.com/analytics.js",
+    "//www.googletagmanager.com/gtag/js?id=G-CMLSMLMXM3",
     "ga"
   );
 
-  ga("create", "G-CMLSMLMXM3", "auto");
-  ga("send", "pageview");
+  // ga("create", "G-CMLSMLMXM3", "auto");
+  // ga("send", "pageview");
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CMLSMLMXM3');
 </script>
 <!-- End Google Analytics -->
 
@@ -46,7 +52,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://blog.madaotech.top/2023/08/10/frontend/browserExtension/manifest.webp">
 <meta property="article:published_time" content="2023-08-10T23:08:23.000Z">
-<meta property="article:modified_time" content="2024-04-17T23:36:33.008Z">
+<meta property="article:modified_time" content="2024-04-18T00:09:40.366Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://blog.madaotech.top/2023/08/10/frontend/browserExtension/manifest.webp">  
     <link rel="icon" href="/favicon.ico" />
@@ -167,7 +173,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://blog.madaotech.top/2023/08/10/frontend/browserExtension/" data-id="clv4gbzvi0006j9q2fv5pacjw" class="article-share-link">Share</a>
+      <a data-url="https://blog.madaotech.top/2023/08/10/frontend/browserExtension/" data-id="clv4himd50006kpoxc9q1a80p" class="article-share-link">Share</a>
       
       
     </footer>
